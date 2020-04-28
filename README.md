@@ -1,10 +1,11 @@
 
 1.	Explore the data set and look at the format of the files.
-  •	Our first task in this project is exploring the json_schema.txt file to identify the important field that we would need to extract from our Json file for clustering and summarizing the document. We can open it this file by
-      o	 f = open ("CORD-19-research-challenge/json_schema.txt", 'r')
-      o	x = f.readlines()
-    o	f.close()
-  •	As it is clear in the schema text file this Json data dictionary contain 
+
+ 	 •	Our first task in this project is exploring the json_schema.txt file to identify the important field that we would need 		to extract from our Json file for clustering and summarizing the document. We can open it this file by
+      				o	 f = open ("CORD-19-research-challenge/json_schema.txt", 'r')
+     			    	 o	x = f.readlines()
+    				o	f.close()
+ 	 •	As it is clear in the schema text file this Json data dictionary contain 
 o	“paper_ id”: which string and doesn’t have any meaning to help us to use. 
 o	“metadata that contain 
 	“title”:  which is the string and it might be good for using.

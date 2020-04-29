@@ -105,6 +105,8 @@ In the textRank method for summ
 
 .
 I saved the result both of got from different ranking summery in SUMMARY.md 
+For my page rank result I used the summary of the cluster number 9 result because i think has a better accuracy with my cluster. And also it is elsvier paper. 
+For my text rank method i used the summary of the cluster 4. for for better accuracy based on the featuares.
 
 # collabrtion
 
